@@ -11,7 +11,7 @@ spec:
     - name: http
       port: 8080
       protocol: TCP
-      targetPort: 8080
+      targetPort: 8089
       nodePort: 30861
   selector:
     app: kubesphere
