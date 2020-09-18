@@ -28,13 +28,13 @@ spec:
           name: ks-sample
           readinessProbe:
             httpGet:
-              path: /
-              port: 8080
+              path: /hanyun/get
+              port: 8089
             timeoutSeconds: 10
             failureThreshold: 30
             periodSeconds: 5
           ports:
-            - containerPort: 8080
+            - containerPort: 8089
               protocol: TCP
           resources:
             limits:
