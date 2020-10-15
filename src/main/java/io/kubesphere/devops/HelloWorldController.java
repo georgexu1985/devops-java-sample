@@ -18,4 +18,10 @@ public class HelloWorldController {
 		System.out.println("#####################################" + count++);
         return "Really appreciate your star, that's the power of our life.";
     }
+	
+    @RequestMapping("/")
+    public String test() {
+		System.out.println("#####################################" + count++);
+        return "HelloWorld.";
+    }
 }
