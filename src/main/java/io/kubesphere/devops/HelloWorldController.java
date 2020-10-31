@@ -10,14 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @EnableAutoConfiguration
-@RequestMapping("/hanyun/api/v1")
 public class HelloWorldController {
 	private static int count = 0;
 
-    @RequestMapping("/getname")
+    @RequestMapping("/hanyun/api/v1/getname")
     public String sayHello() {
 		System.out.println("#####################################  /hanyun/api/v1/getname");
-        return "Really appreciate your star, that's the power of our life.";
+        return "#####################################  /hanyun/api/v1/getname.";
     }
 
 }
