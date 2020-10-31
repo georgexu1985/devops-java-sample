@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
 	private static int count = 0;
 
-    @RequestMapping("/hanyun/api/v1/getname")
+    @RequestMapping("/")
     public String sayHello() {
 		System.out.println("#####################################  /hanyun/api/v1/getname");
         return "#####################################  /hanyun/api/v1/getname.";
